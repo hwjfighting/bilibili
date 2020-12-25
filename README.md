@@ -18,7 +18,7 @@
 
 ### 项目效果动图：
 
-<img src="README.assets/2d.gif" alt="2d" style="zoom: 67%;" />
+<img src="https://github.com/hwjfighting/bilibili/blob/master/src/assets/2d.gif" alt="2d" style="zoom: 67%;" />
 
 ## Project setup
 ```
