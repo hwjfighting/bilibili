@@ -1,12 +1,28 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from 'views/Home.vue'
-import register from 'views/register.vue'
-import Login from 'views/Login.vue'
-import userinfo from 'views/userinfo.vue'
-import edit from 'views/edit.vue'
-import artical from 'views/artical.vue'
-import editCategory from 'views/editCategory.vue'
+// import Home from 'views/Home.vue'
+// import register from 'views/register.vue'
+// import Login from 'views/Login.vue'
+// import userinfo from 'views/userinfo.vue'
+// import edit from 'views/edit.vue'
+// import artical from 'views/artical.vue'
+// import editCategory from 'views/editCategory.vue'
+
+const Home = () =>
+    import ('views/Home.vue')
+const register = () =>
+    import ('views/register.vue')
+const Login = () =>
+    import ('views/Login.vue')
+const userinfo = () =>
+    import ('views/userinfo.vue')
+const edit = () =>
+    import ('views/edit.vue')
+const artical = () =>
+    import ('views/artical.vue')
+const editCategory = () =>
+    import ('views/editCategory.vue')
+
 
 Vue.use(VueRouter)
 
